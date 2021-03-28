@@ -38,7 +38,7 @@ barchartGC(~infected + treatment,data=triumpF, type="percent")
 
 ```
 
-The graph shows among women who got the drug they were more likely to get aids
+The graph shows those who got the PLACEBO were more likely to get aids than those who got the DRUG. 
 
 
 ### Numerical Descriptive Results
@@ -51,7 +51,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-The table shows the women who got aids 59% got the drug and about 41% got the placebo 
+The table shows two sets of treatments, the first one shows 58.82% of those infected with aids received the drug and 48.06% of those not infected did not receive the drug. The second treatment shows those with aids only 3.69% of them received the drug, whereas 96.31% of those who were not infected with aids did receive the drug. 
 
 ## Inferential Results
 
@@ -62,10 +62,11 @@ chisq.test(table1)
 chisqtestGC(table1)
 fisher.test(table1)
 ```
-p-value = 0.0000659 this number is so small that the result we found are not likely to happen by chance 
-the odds ratio 1.543902 means women who got the drug were about 1.5 x more likely to get aids then women who got placebo
+
+p-value = 0.0000659 this number is so small that the result we found are not likely to happen by chance. The odds ratio 1.543902 means women who got the drug were about 1.5 x more likely to get aids then women who got placebo. 
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-The question was is the drug effective for women. the concluson is the drug was found not to be effective to prevent aids for women. 
+The question was is the drug effective for women. In conclusion, the aids drug does not seem to be effective against aids. 
